@@ -1,0 +1,132 @@
+[data-testid="stSidebar"] {
+    background-color: white;
+}
+[data-testid="stSidebarNav"] {
+    background-image: url(https://chat-lab-asssets.nyc3.cdn.digitaloceanspaces.com/Chat-lab-bubble-logo-white-background-not-tail.png);
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    background-position: center top;
+    background-size: 200px 200px; 
+}
+[data-testid="stSidebarNav"]::before {
+    content: "chat-lab.ai";
+    position: absolute;
+    top: 220px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 30px;
+    font-weight: bold;
+    color: #214660;
+    text-align: center;
+}
+
+[data-testid='stSidebarNav'] > ul { min-height: 45dvh; } 
+
+[data-testid="stElementToolbar"] {
+    display: none;
+}
+
+body {
+    background-color: white;
+}
+
+body .main .block-container h1 {
+    color: #214660; 
+}
+body .main .block-container h2 {
+    color: #3b7dac;
+    text-align: center;
+}
+body .main .block-container h3 {
+    color: #576676;
+    text-align: center;
+}
+/* Style for headings in the sidebar */
+body .sidebar .block-container h1 {
+    color: #214660; 
+}
+body .sidebar .block-container h2 {
+    color: #3b7dac 
+}
+body .sidebar .block-container h3 {
+    color: #576676 
+}
+
+.stTabs {
+    border: 1px solid #c3c4c8;
+    border-radius: 4px 4px 4px 4px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+[data-testid="stForm"] {border: 0px}
+
+.sidebar .stButton > button {
+    display: block;
+    margin: 0 auto;
+}
+
+#MainMenu {visibility: hidden;}
+
+header {visibility: hidden;}
+
+footer {visibility: hidden;}
+
+.button {
+    background-color: #3b7dac; 
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 0.25rem;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2); 
+}
+
+.button:hover {
+    background-color: #214660;
+}
+
+#mc_embed_signup {
+    background-color: #214660;
+    font: 14px Helvetica, Arial, sans-serif;
+    color: white;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+#email-form input {
+    display: block;
+}
+.email-button {
+    background-color: #ffdd04; 
+    color: black;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 0.25rem;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2); 
+}
+/* CSS for larger screens */
+.mc-field-group {
+    width: 50%;
+    margin: 0 auto;
+}
